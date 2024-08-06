@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "violet";
+  src: url("./assets/Fonts/VioletSans-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "healtheweb";
+  src: url("./assets/Fonts/HealTheWebA-Regular.otf") format("opentype");
+}

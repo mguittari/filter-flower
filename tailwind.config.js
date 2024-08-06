@@ -15,6 +15,10 @@ export default {
         0.1: "0.1em",
         "-0.1": "-0.1em",
       },
+      fontFamily: {
+        violetsans: ["violet-sans", "sans-serif"],
+        healtheweb: ["healtheweb", "sans-serif"],
+      },
     },
   },
   variants: {

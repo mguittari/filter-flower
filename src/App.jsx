@@ -51,7 +51,7 @@ export default function App() {
         onFilterChange={handleFilterChange}
         onClickFilter={handleClickFilter}
       />
-      <div className="grid md:grid-cols-5 gap-4 px-5 pb-16 bg-green-500 justify-center">
+      <div className="grid md:grid-cols-5 gap-4 px-5 pb-28 bg-green-500 justify-center">
         {filteredFlowers.map((flower) => (
           <img className="rounded-xl" key={flower.id} src={flower.img_url} />
         ))}
