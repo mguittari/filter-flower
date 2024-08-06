@@ -3,175 +3,151 @@
         "id": 1,
         "img_url": "https://64.media.tumblr.com/fc21cf87431f3472ec8d6253b1d79163/7437c4b3bb201f63-d1/s640x960/d4cea315d4a94747c4d1868f7773723663bfeacc.jpg",
         "color": "black",
-        "bug": true,
-        "lizard": false
+        "bug": true
     },
     {
         "id": 2,
         "img_url": "https://64.media.tumblr.com/a3f8713f25bd52f0b911df4870cc8fe6/214e65fe15f76de5-77/s640x960/1123d4f4871373f1d8d32d423b549204089432a5.jpg",
         "color": "brown",
-        "bug": true,
-        "lizard": false
+        "bug": true
     },
     {
         "id": 3,
         "img_url": "https://64.media.tumblr.com/181ca3de3fcd4ce4cc6cbd56fe100029/1ac3704af23b5a10-f1/s640x960/2f6b21bf2529bc235fc82bfa5a746ea8c763e3a1.png",
         "color": "green",
-        "bug": true,
-        "lizard": false
+        "bug": true
     },
     {
         "id": 4,
         "img_url": "https://64.media.tumblr.com/48607459af4c9b8bcd66f19a321257ad/e971c3a3e934d9d2-5d/s640x960/d40cf06a8863d4a54a4b0842e9db36ad8c857731.png",
         "color": "brown",
-        "bug": true,
-        "lizard": false
+        "bug": true
     },
     {
         "id": 5,
         "img_url": "https://64.media.tumblr.com/37e480162993ebed066f53dfdaa38aa0/7682d939e52c004a-39/s640x960/242106e946a4469af6827fc146be7d3d44125db3.jpg",
         "color": "brown",
-        "bug": true,
-        "lizard": false
+        "bug": true
     },
     {
         "id": 6,
         "img_url": "https://64.media.tumblr.com/f5c85685725f1e3c71fe33189679e4a5/33a151dc0a1c292f-a4/s640x960/1ee674f4ac16b0e5c15576dbde70003e291a7700.jpg",
         "color": "green",
-        "bug": true,
-        "lizard": false
+        "bug": true
     },
     {
         "id": 7,
         "img_url": "https://64.media.tumblr.com/1c39bf2bb31192ff975a9c9b603c126c/0caa964f83c1e2c4-c9/s640x960/2eaa84bb0d30fd6e9737a57d148b0ebf508f40a7.jpg",
         "color": "green",
-        "bug": true,
-        "lizard": false
+        "bug": true
     },
     {
         "id": 8,
         "img_url": "https://64.media.tumblr.com/f9af2d32e0f139989451fc0c100f23e4/044b82d83bb97aad-66/s640x960/7ddbd4d46cf6b80a346e43841faf744722eb05f0.jpg",
         "color": "yellow",
-        "bug": true,
-        "lizard": false
+        "bug": true
     },
     {
         "id": 9,
         "img_url": "https://64.media.tumblr.com/62eaed42b470ed1c4751978ed1150f1d/595871c77985e08d-34/s640x960/90478be079704e2b66a9aefe1126a08b79dbfa40.jpg",
         "color": "pink",
-        "bug": false,
-        "lizard": false
+        "bug": false
     },
     {
         "id": 10,
         "img_url": "https://64.media.tumblr.com/62fb4d47261eceb87cfe18bd8a75dcd3/a4a2af5049e433a6-13/s640x960/21a2670ba7827b9c6b326b122b2c68aca584d706.jpg",
         "color": "green",
-        "bug": true,
-        "lizard": false
+        "bug": true
     },
     {
         "id": 11,
         "img_url": "https://64.media.tumblr.com/e8aea94ab93bab99ff60304d5344fd10/c5e188b234c39acc-51/s640x960/4808f99be1ab41cc64f9acdcd0db63ca9ee238e5.jpg",
         "color": "green",
-        "bug": true,
-        "lizard": false
+        "bug": true
     },
     {
         "id": 12,
         "img_url": "https://64.media.tumblr.com/13bfcae9781d0e828583f664e50d5bc7/e71ec2ab999b6076-a8/s640x960/f3f4c23b042ce842b4906d2d329c933210cb44f5.jpg",
         "color": "red",
-        "bug": true,
-        "lizard": false
+        "bug": true
     },
     {
         "id": 13,
         "img_url": "https://64.media.tumblr.com/d5ea2367f64195f978d3448a2a421d2e/3e156d829aa65e1d-e3/s640x960/835849b5b688c22ed0264ad7918a6fd83f482b8e.jpg",
         "color": "brown",
-        "bug": true,
-        "lizard": false
+        "bug": true
     },
     {
         "id": 14,
         "img_url": "https://64.media.tumblr.com/fc9c5ed5097e8e834f56c5ac7683d9d0/4cca3a118c6e31fe-54/s640x960/143dbc6fe990917663ea8dc820bb9c56763ed8d8.jpg",
         "color": "green",
-        "bug": true,
-        "lizard": false
+        "bug": true
     },
     {
         "id": 15,
         "img_url": "https://64.media.tumblr.com/df14d65eeb1d61343aad271121dda9a5/da8faaa333b50aa2-43/s640x960/aaf7ca1e0c2e84653f41adece74a5f88b5ffaa0a.jpg",
         "color": "pink",
-        "bug": true,
-        "lizard": false
+        "bug": false
     },
     {
         "id": 16,
         "img_url": "https://64.media.tumblr.com/3b3598831338202c5fb9da323b230e39/4a9f8254c2f93e3f-2a/s640x960/ccfd23e0195cd5789621fd5316b9aac3f361f8a6.jpg",
         "color": "white",
-        "bug": false,
-        "lizard": false
+        "bug": false
     },
     {
         "id": 17,
-        "img_url": "https://64.media.tumblr.com/479b3e77669df07222a27812fb237813/667c5090feaf23cc-75/s640x960/ec0af9a74e452f7cf82d579235844ec381a08ee9.jpg",
-        "color": "green",
-        "bug": false,
-        "lizard": true
+        "img_url": "https://64.media.tumblr.com/c69a8aed7656618cea16ef89f1254c18/79a283d726ed251e-db/s640x960/044a51b4b0b3e9493640d83584e03c634a1d6d21.jpg",
+        "color": "pink",
+        "bug": true
     },
     {
         "id": 18,
-        "img_url": "https://64.media.tumblr.com/c69a8aed7656618cea16ef89f1254c18/79a283d726ed251e-db/s640x960/044a51b4b0b3e9493640d83584e03c634a1d6d21.jpg",
-        "color": "pink",
-        "bug": true,
-        "lizard": false
+        "img_url": "https://64.media.tumblr.com/48cc9f4755091c3fa257dc0ef231b827/435c50e470117398-0d/s640x960/a6dd65b729dce26df66910c5d81704555fb459c7.jpg",
+        "color": "green",
+        "bug": false
     },
     {
         "id": 19,
-        "img_url": "https://64.media.tumblr.com/48cc9f4755091c3fa257dc0ef231b827/435c50e470117398-0d/s640x960/a6dd65b729dce26df66910c5d81704555fb459c7.jpg",
-        "color": "green",
-        "bug": false,
-        "lizard": false
+        "img_url": "https://64.media.tumblr.com/0c149de757a6a32296c7f892fa29b7d4/b636ac50f7baadf8-53/s640x960/b0a31c2201c5a5e6ff6654a718cbda98944db913.jpg",
+        "color": "white",
+        "bug": true
     },
     {
         "id": 20,
-        "img_url": "https://64.media.tumblr.com/0c149de757a6a32296c7f892fa29b7d4/b636ac50f7baadf8-53/s640x960/b0a31c2201c5a5e6ff6654a718cbda98944db913.jpg",
-        "color": "white",
-        "bug": true,
-        "lizard": false
+        "img_url": "https://64.media.tumblr.com/cbad7f4e3bfa0354bb71acc4eec3115d/e89de1db1e5e9e14-70/s640x960/ec11cc925417c95a6eb171258e0d7fcd736b339b.jpg",
+        "color": "brown",
+        "bug": false
     },
     {
         "id": 21,
-        "img_url": "https://64.media.tumblr.com/cbad7f4e3bfa0354bb71acc4eec3115d/e89de1db1e5e9e14-70/s640x960/ec11cc925417c95a6eb171258e0d7fcd736b339b.jpg",
-        "color": "brown",
-        "bug": false,
-        "lizard": false
-    },
-    {
-        "id": 22,
         "img_url": "https://64.media.tumblr.com/7a939cfc83cb0601d43a546c7cdc1e83/97581a68df1fe096-33/s640x960/cf3149a54a3bd9a57117c65176c6278bf7662332.jpg",
         "color": "purple",
-        "bug": true,
-        "lizard": false
+        "bug": true
     },{
-        "id": 23,
+        "id": 22,
         "img_url": "https://64.media.tumblr.com/3316936293864bf1e16bf9d5b6ab6028/ee36c30df54a98e2-ea/s640x960/3f3603a614572a899c23f492ef332b37889c0f71.png",
         "color": "purple",
-        "bug": false,
-        "lizard": false
+        "bug": false
+    },
+    {
+        "id": 23,
+        "img_url": "https://64.media.tumblr.com/9bb37ea44694255b85544964442e20a9/197dba5ea84df949-bb/s640x960/0688044f42393ddbd4964e2db7ef89c61cb6074b.jpg",
+        "color": "green",
+        "bug": true
     },
     {
         "id": 24,
-        "img_url": "https://64.media.tumblr.com/9bb37ea44694255b85544964442e20a9/197dba5ea84df949-bb/s640x960/0688044f42393ddbd4964e2db7ef89c61cb6074b.jpg",
-        "color": "green",
-        "bug": true,
-        "lizard": false
+        "img_url": "https://64.media.tumblr.com/e4495ac0ce0a3839ec2764f2ae652d0b/c070d76093a7a12b-e6/s640x960/aa23c058e8815cc84ad4ed25d4ba051718aabccf.png",
+        "color": "purple",
+        "bug": false
     },
     {
         "id": 25,
-        "img_url": "https://64.media.tumblr.com/e4495ac0ce0a3839ec2764f2ae652d0b/c070d76093a7a12b-e6/s640x960/aa23c058e8815cc84ad4ed25d4ba051718aabccf.png",
-        "color": "purple",
-        "bug": false,
-        "lizard": false
+        "img_url":"https://64.media.tumblr.com/407a62fea2794e8874da9cb0761ac3c7/2b96c0ab6fd27e28-39/s1280x1920/899b2ba0f70d79fa792c8293de5dc0e6f3c5f011.jpg",
+        "color": "white",
+        "bug": false
     }
+
 ]
 

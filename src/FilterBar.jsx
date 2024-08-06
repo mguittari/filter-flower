@@ -1,9 +1,8 @@
-export default function FilterBar({ filters, onFilterChange }) {
+/* eslint-disable react/prop-types */
+export default function FilterBar({ filters, onFilterChange, onClickFilter }) {
   const handleSubmit = (e) => {
     e.preventDefault();
   };
-
-  console.info(filters);
 
   return (
     <div className="grid items-center justify-center bg-green-400 p-10">
@@ -21,7 +20,11 @@ export default function FilterBar({ filters, onFilterChange }) {
             </li>
           ))}
           <li>
-            <button type="submit" className="bg-slate-300">
+            <button
+              onClick={onClickFilter}
+              type="submit"
+              className="bg-slate-300"
+            >
               Valider
             </button>
           </li>

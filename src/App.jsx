@@ -10,12 +10,11 @@ export default function App() {
     white: false,
     brown: false,
     green: false,
-    rose: false,
+    pink: false,
     yellow: false,
     red: false,
     purple: false,
     bug: false,
-    lizard: false,
   });
 
   useEffect(() => {
@@ -23,9 +22,14 @@ export default function App() {
     setFilteredFlowers(flowers);
   }, []);
 
-  //   useEffect(() => {
-  //     filterFlowers();
-  //   }, [filters]);
+  const handleClickFilter = () => {
+    const result = flowersData.filter((flower) => {
+      return filters[flower.color];
+    });
+    console.info(flowersData);
+    console.info("Filtered data -->", result);
+    setFilteredFlowers(result);
+  };
 
   const handleFilterChange = (e) => {
     const { name, checked } = e.target;
@@ -35,22 +39,15 @@ export default function App() {
     });
   };
 
-  //   const filterFlowers = () => {
-  //     flowers.filter((flower) => {
-  //       if (flower.color === "white") {
-  //         console.info("filter", flower);
-  //         setFlowersData(flower);
-  //       }
-  //     });
-  //   };
-
-  console.info("fff", flowersData);
-
   return (
     <>
-      <FilterBar filters={filters} onFilterChange={handleFilterChange} />
+      <FilterBar
+        filters={filters}
+        onFilterChange={handleFilterChange}
+        onClickFilter={handleClickFilter}
+      />
       <div className="grid grid-cols-5 gap-4 p-5 bg-green-400">
-        {flowersData.map((flower) => (
+        {filteredFlowers.map((flower) => (
           <img
             className="rounded-xl shadow-2xl"
             key={flower.id}
