@@ -24,11 +24,16 @@ export default function App() {
 
   const handleClickFilter = () => {
     const result = flowersData.filter((flower) => {
-      return filters[flower.color];
+      const bugMatch = filters.bug && flower.bug;
+      const colorMatch = filters[flower.color];
+      return colorMatch || bugMatch;
     });
     console.info(flowersData);
     console.info("Filtered data -->", result);
     setFilteredFlowers(result);
+    if (result.length === 0) {
+      setFilteredFlowers(flowers);
+    }
   };
 
   const handleFilterChange = (e) => {
@@ -46,13 +51,9 @@ export default function App() {
         onFilterChange={handleFilterChange}
         onClickFilter={handleClickFilter}
       />
-      <div className="grid grid-cols-5 gap-4 p-5 bg-green-400">
+      <div className="grid md:grid-cols-5 gap-4 px-5 pb-16 bg-green-500 justify-center">
         {filteredFlowers.map((flower) => (
-          <img
-            className="rounded-xl shadow-2xl"
-            key={flower.id}
-            src={flower.img_url}
-          />
+          <img className="rounded-xl" key={flower.id} src={flower.img_url} />
         ))}
       </div>
     </>
