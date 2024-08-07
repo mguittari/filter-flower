@@ -23,17 +23,34 @@ export default function App() {
   }, []);
 
   const handleClickFilter = () => {
-    const result = flowersData.filter((flower) => {
-      const bugMatch = filters.bug && flower.bug;
+    // Filtrer les fleurs en fonction de la couleur sélectionnée
+    const colorFiltered = flowersData.filter((flower) => {
       const colorMatch = filters[flower.color];
-      return colorMatch || bugMatch;
+      return colorMatch;
     });
-    console.info(flowersData);
-    console.info("Filtered data -->", result);
-    setFilteredFlowers(result);
-    if (result.length === 0) {
-      setFilteredFlowers(flowers);
+
+    console.info("Color -->", colorFiltered);
+
+    // Si le filtre "bug" est activé, filtrer encore pour ne garder que les fleurs avec des insectes
+    const finalResult = filters.bug
+      ? colorFiltered.filter((flower) => flower.bug)
+      : colorFiltered;
+
+    console.info("Final result", finalResult);
+
+    const bug = flowersData.filter((flower) => {
+      const bugMatch = filters.bug && flower.bug;
+      return bugMatch;
+    });
+
+    console.info("bug -->", bug);
+    if (colorFiltered.length < 1 && finalResult < 1) {
+      setFilteredFlowers(bug);
+    } else {
+      setFilteredFlowers(finalResult.length > 0 ? finalResult : flowers);
     }
+
+    // Mettre à jour les fleurs filtrées, ou toutes les fleurs si aucun résultat
   };
 
   const handleFilterChange = (e) => {
@@ -59,3 +76,21 @@ export default function App() {
     </>
   );
 }
+
+// const handleClickFilter = () => {
+//   const result = flowersData.filter((flower) => {
+//     const bugMatch = filters.bug && flower.bug;
+//     const colorMatch = filters[flower.color];
+//     console.info("bug?", bugMatch);
+//     console.info("color?", colorMatch);
+//     if (colorMatch && bugMatch) {
+//       return colorMatch && bugMatch;
+//     }
+//     return colorMatch || bugMatch;
+//   });
+// console.info("Filtered data -->", result);
+//   setFilteredFlowers(result);
+//   if (result.length === 0) {
+//     setFilteredFlowers(flowers);
+//   }
+// };
