@@ -27,7 +27,7 @@ export default function FilterBar({ filters, onFilterChange, onClickFilter }) {
           <button
             onClick={onClickFilter}
             type="submit"
-            className="bg-yellow-400 font-inherit font-extrabold text-xl border-4 border-black rounded-2xl cursor-pointer h-20 w-36 mt-4 shadow-custom-md hover:shadow-custom-lg active:shadow-custom-sm active:translate-x-0.05 active:translate-y-0.05 hover:-translate-x-0.05 hover:-translate-y-0.05"
+            className="bg-yellow-400 font-inherit font-extrabold text-xl border-4 border-black rounded-2xl cursor-pointer h-20 w-36 my-4 shadow-custom-md hover:shadow-custom-lg active:shadow-custom-sm active:translate-x-0.05 active:translate-y-0.05 hover:-translate-x-0.05 hover:-translate-y-0.05"
           >
             Valider
           </button>

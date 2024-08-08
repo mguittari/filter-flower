@@ -68,11 +68,17 @@ export default function App() {
         onFilterChange={handleFilterChange}
         onClickFilter={handleClickFilter}
       />
-      <div className="grid md:grid-cols-5 gap-4 px-5 pb-28 bg-green-500 justify-center">
+      <div className="grid md:grid-cols-5 gap-4 px-5 pb-16 bg-green-500 justify-center">
         {filteredFlowers.map((flower) => (
           <img className="rounded-xl" key={flower.id} src={flower.img_url} />
         ))}
       </div>
+      <footer className="bg-green-500 w-full h-32 flex justify-center items-end pb-4 font-violetsans text-xl">
+        <div className="border-4 border-black rounded-2xl p-4 bg-pink-400 text-center">
+          <p className="">Tous droits réservés Mattias Guittari</p>
+          <p>Wild Code School 2024</p>
+        </div>
+      </footer>
     </>
   );
 }
