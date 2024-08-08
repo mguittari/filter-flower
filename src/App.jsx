@@ -75,7 +75,7 @@ export default function App() {
       </div>
       <footer className="bg-green-500 w-full h-32 flex justify-center items-end pb-4 font-violetsans text-xl">
         <div className="border-4 border-black rounded-2xl p-4 bg-pink-400 text-center">
-          <p className="">Tous droits réservés Mattias Guittari</p>
+          <p className="">All rights reserved © Mattias Guittari</p>
           <p>Wild Code School 2024</p>
         </div>
       </footer>

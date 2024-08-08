@@ -10,7 +10,7 @@ export default function FilterBar({ filters, onFilterChange, onClickFilter }) {
         <ul className="grid md:grid-cols-9 grid-cols-3 rounded-2xl p-6 gap-6 bg-white justify-center border-4 border-black font-violetsans">
           {Object.keys(filters).map((filter) => (
             <li
-              className="flex justify-center items-center gap-1 text-xl "
+              className="flex justify-center items-center text-xl gap-1"
               key={filter}
             >
               <label htmlFor={filter}>{filter}</label>
